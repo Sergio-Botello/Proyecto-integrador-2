@@ -1,0 +1,28 @@
+a{
+    text-decoration: none;
+    font-size:17px ;
+    transition: transform 0.3s ease-out;
+}
+p{
+    font-size: 17px;
+}
+a:hover{
+    color:white !important;
+    transform: scale(1.1);
+}
+i{
+    font-size: 25px;
+}
+button{
+    font-size:17px ;
+    transition: transform 0.3s ease-out;
+}
+button:hover{
+    transform: scale(1.1);
+}
+.list-inline-item{
+    transition: transform 0.3s ease-out;
+}
+.list-inline-item:hover{
+    transform: scale(1.1);
+}

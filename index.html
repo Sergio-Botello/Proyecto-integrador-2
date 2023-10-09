@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto ecomers</title>
+   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/master.css">
+  </head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" data-bs-theme="dark" >
+   <!-- <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">-->
+    
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#carouselExampleDark">ecomers</a>
+         
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#carouselExampleDark">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#productos">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./misFavoritos.html">Mis favoritos</a>
+              </li>              
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+    <div id="carrusel" >
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" >
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="./img/black-friday-2925476_1280.jpg" class="d-block w-100" alt="black friday" >
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="./img/perchas-1850082_1280.jpg" class="d-block w-100" alt="perchas">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./img/christmas-2951662_1280.jpg" class="d-block w-100" alt="navidad">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
+        </div>
+
+        <h1 class="mt-5 mb-4 mx-5">Nuestros productos</h1>
+        <hr>
+
+       <div class="container-fluid "> 
+      <section id="productos" class="row">
+
+      </section>
+      </div>
+
+    <footer class="bg-dark text-light pt-5 pb-4">
+      <div class="container text-center text-md-start" >
+        <div class="row text-center text-md-start"> 
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5 class="texte-uppercase md-4 font-weight-bold text-primary">Nosotros</h5>
+            <hr class="mb-4">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quaerat, laboriosam vel consequuntur alias iure dicta qui exercitationem quo ratione?
+            </p>
+          </div>
+
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5 class="texte-uppercase md-4 font-weight-bold text-primary">Dejanos Ayudarte</h5>
+            <hr class="mb-4">
+            <p>
+              <a href="#" class="text-light">Tu cuenta</a>
+            </p>
+            <p>
+              <a href="#" class="text-light">Tus ordenes</a>
+            </p>
+            <p>
+              <a href="#" class="text-light">Manejo de cuenta</a>
+            </p>
+            <p>
+              <a href="#" class="text-light">Ayuda</a>
+            </p>
+          </div>
+
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5 class="texte-uppercase md-4 font-weight-bold text-primary">Has dinero</h5>
+            <hr class="mb-4">
+            <p>
+              <a href="#" class="text-light">Vende productos en nuestra web</a>
+            </p>
+            <p>
+              <a href="#" class="text-light">Anuncios</a>
+            </p>
+            <p>
+              <a href="#" class="text-light">Afiliate</a>
+            </p>
+            <p>
+              <a href="#" class="text-light">Publica</a>
+            </p>
+          </div>
+
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5 class="texte-uppercase md-4 font-weight-bold text-primary">Contacto</h5>
+            <hr class="mb-4">
+            <p>
+              <li class="fas fa-home me-3"></li>Argentina, Paraná-Entre Ríos
+            </p>
+            <p>
+              <li class="fas fa-envelope me-3"></li>test@gamil.com
+            </p>
+            <p>
+              <li class="fas fa-phone me-3"></li>+4444444
+            </p>
+            <p>
+              <li class="fas fa-print me-3"></li>+15151515
+            </p>
+          </div>
+
+          <hr class="mb-4">
+
+          <div class="text-center mb-2">
+            <p>
+              Copyright Todos los derechos reservados
+              <a href="#">
+                <strong class="text-primary">Botello Sergio</strong>
+              </a>
+            </p>
+          </div>
+
+          <div class="text-center">
+            <ul class="list-unstyled list-inline">
+              <li class="list-inline-item">
+                <a href="#" class="text-light"><i class="fab fa-facebook"></i></a>
+              </li>
+                <li class="list-inline-item">
+                  <a href="#" class="text-light"><i class="fab fa-twitter"></i></a>
+              </li>
+                <li class="list-inline-item">
+                  <a href="#" class="text-light"><i class="fab fa-google-plus"></i></a>
+              </li>
+                <li class="list-inline-item">
+                 <a href="#" class="text-light"><i class="fab fa-linkedin-in"></i></a>
+              </li>
+                  <li class="list-inline-item">
+                  <a href="#" class="text-light"><i class="fab fa-youtube"></i></a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+  </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/master.js"></script>
+    
+
+</body>
+</html>
